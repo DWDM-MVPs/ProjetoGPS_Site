@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c8uo41cOxaz+l3KX2U1jNCjjTxDIBFkZfQmQmW+6k+hXJuOh6AWGQ5EAO08ZwJ+Hxy5xP0Cxc9rH5aubqUHe2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\milke\\Desktop\\ProjetoGPS\\ProjetoGPS_Site\\ProjetoGPS_Site.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\milke\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\milke\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}
