@@ -36,13 +36,9 @@ namespace ProjetoGPS_Site.Pages
 			{
 				app.Type = 0;
 			}
-			else if (type == "question")
+			else if (type == "message")
 			{
 				app.Type = 1;
-			}
-			else if (type == "sugestion")
-			{
-				app.Type = 2;
 			}
 
 			this.POST(app);
@@ -54,11 +50,11 @@ namespace ProjetoGPS_Site.Pages
 
 		private void POST(Application app)
 		{
-			var client = new RestClient(ApiEndpoint + "applications");
+			RestClient client = new RestClient(ApiEndpoint + "applications");
 			client.Timeout = -1;
-			var request = new RestRequest(Method.POST);
+			RestRequest request = new RestRequest(Method.POST);
 			request.AddHeader("Content-Type", "application/json");
-			var body = JsonConvert.SerializeObject(app);
+			string body = JsonConvert.SerializeObject(app);
 			request.AddParameter("application/json", body, ParameterType.RequestBody);
 			IRestResponse res = client.Execute(request);
 		}

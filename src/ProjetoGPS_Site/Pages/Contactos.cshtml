@@ -10,7 +10,7 @@
 	<div class="container px-5 row gx-5 align-items-center">
 		<div class="col-lg-6 order-lg-2">
 			<div class="p-5">
-				<a href="https://www.ips.pt/">
+				<a href="@Model.cIpsWeb">
 					<img class="img-fluid " src="~/img/ips.png" />
 				</a>
 			</div>
@@ -19,10 +19,10 @@
 			<div class="p-5">
 				<h2 style="font-size: 30px; text-decoration: none"><a href="https://www.ips.pt/ips_si/web_page.inicial">Instituto Politécnico de Setúbal</a></h2>
 				<div class="paragraphs">
-					<a class="paragraphs" href="mailto: brightstart@deloitte.pt">brightstart@deloitte.pt</a>
+					<a class="paragraphs" href="mailto: @Model.cIpsEmail">@Html.Raw(Model.cIpsEmail)</a>
 				</div>
 				<div class="paragraphs">
-					<a>210 422 932</a>
+					<a>@Html.Raw(Model.cIpsTel)</a>
 				</div>
 			</div>
 		</div>
@@ -40,10 +40,10 @@
 			<div class="p-5">
 				<h2 style="font-size: 30px; text-decoration: none"><a href="https://www.ipv.pt/">Instituto Politécnico de Viseu</a></h2>
 				<div class="paragraphs">
-					<a class="paragraphs" href="mailto: brightstartIPV@deloitte.pt">brightstartIPV@deloitte.pt</a>
+					<a class="paragraphs" href="mailto: @Model.cIpvEmail">@Html.Raw(Model.cIpvEmail)</a>
 				</div>
 				<div class="paragraphs">
-					<a>210 422 934</a>
+					<a>@Html.Raw(Model.cIpvTel)</a>
 				</div>
 			</div>
 		</div>
@@ -61,10 +61,10 @@
 			<div class="p-5">
 				<h5 style="font-size: 30px; text-decoration: none;"><a href="https://www.ipleiria.pt/">Instituto Politécnico de Leiria</a></h5>
 				<div class="paragraphs" style="margin-top: -7%; text-decoration: none">
-					<a class="paragraphs" href="mailto: brightstartIPL@deloitte.pt">brightstartIPL@deloitte.pt</a>
+					<a class="paragraphs" href="mailto: @Model.cIplEmail">@Html.Raw(Model.cIplEmail)</a>
 				</div>
 				<div class="paragraphs">
-					<a>210 422 935</a>
+					<a>@Html.Raw(Model.cIplTel)</a>
 				</div>
 			</div>
 		</div>

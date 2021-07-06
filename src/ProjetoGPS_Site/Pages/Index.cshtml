@@ -16,10 +16,7 @@
 		<div class="col-lg-6 order-lg-1">
 			<div class="p-5">
 				<h2 class="display-4">Sobre o BrightStart</h2>
-				<p>
-					O BrightStart é um programa de aceleração de competências para os finalistas do ensino secundário que pretendam ingressar na área das Tecnologias Informáticas. É uma oportunidade para adquirirem, enquanto estudam, conhecimentos
-                            e competências práticas em ambiente real de trabalho.
-				</p>
+				<p>@Html.Raw(Model.iAbout)</p>
 			</div>
 		</div>
 	</div>
@@ -33,7 +30,7 @@
 		<div class="col-lg-6">
 			<div class="p-5">
 				<h2 class="display-4">Onde podes, começar a tua carreira?</h2>
-				<p>O Programa BrightStart atualmente está presente no Instituto Politécnico de Setúbal, Politécnico de Leiria e Politécnico de Viseu.</p>
+				<p>@Html.Raw(Model.iWhere)</p>
 			</div>
 		</div>
 	</div>
@@ -46,8 +43,8 @@
 		</div>
 		<div class="col-lg-6 order-lg-1">
 			<div class="p-5">
-				<h2 class="display-4">Porquê BrightStart?</h2>
-				<p>Para além do benefício de ganhar experiencia enquanto se tira a licenciatura, tens muitas outras vantagens como propinas pagas, uma bolsa de 140 € para gastares como quiseres e muitas outras.</p>
+				<h2 class="display-4">Porquê o BrightStart?</h2>
+				<p>@Html.Raw(Model.iWhy)</p>
 			</div>
 		</div>
 	</div>
